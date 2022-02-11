@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    password: Andhale6775
+    url: 'jdbc:oracle:thin:@localhost:1521:orcl '
+    username: system
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle12cDialect
+server:
+  port : 9090
+          
+  mail:
+    host: smtp.gmail.com
+    password: derotputyigycthp
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true;
+          starttls:
+            enable: true
+    username: andhaleakshay6775@gmail.com
+  security:
+    user:
+      name: user
+      
+      
+ 
